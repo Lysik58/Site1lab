@@ -1,0 +1,254 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #dbd9d9;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background: rgba(189, 26, 26, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+
+header .title__header a,
+header .user_main a {
+    cursor: pointer;
+}
+
+header .title__header a img {
+    width: 100px;
+    height: 100px;
+}
+
+header .navigation__header nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header .navigation__header nav ul a {
+    font-size: 26px;
+    color: #a14848;
+
+}
+
+header .navigation__header nav ul a:hover {
+    color: #d60404;
+    transition: 0.5s;
+  text-align: center; 
+  transform: scale(4);
+}
+
+header .navigation__header li:hover {
+    transition: 0.5s;
+  text-align: center; 
+  transform: scale(1.2);
+}
+
+header .user_main a img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    height: 100%;
+    padding: 150px 10px 20px 10px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+main .main__advantages,
+main .main__directions,
+main .main__baccalaureate,
+main .main__applicans,
+main .main__magistracy,
+main .main__postgraduate,
+main .main__special,
+main .main__about,
+main .main__user,
+main .main__loyalty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main__advantages .main__advantages-title,
+main .main__directions .main__directions-title,
+main .main__baccalaureate .main__baccalaureate_title,
+main .main__applicans .main__applicans-title,
+main .main__magistracy .main__magistracy-title,
+main .main__postgraduate .main__postgraduate-title,
+main .main__special .main__special-title,
+main .main__about .main__about-title,
+main .main__user .main__user-title,
+main .main__loyalty .main__loyalty-title {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 800;
+}
+
+main .main__advantages ul,
+main .main__directions ul,
+main .main__baccalaureate ul,
+main .main__applicans ul,
+main .main__magistracy ul,
+main .main__postgraduate ul,
+main .main__special ul,
+main .main__about ul,
+main .main__loyalty ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+main .main__advantages ul li,
+main .main__directions ul li,
+main .main__baccalaureate ul li,
+main .main__applicans ul li,
+main .main__magistracy ul li,
+main .main__postgraduate ul li,
+main .main__special ul li,
+main .main__about ul li,
+main .main__loyalty ul li {
+    background: #3d3d3d;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+main .main__advantages ul li .title,
+main .main__directions ul li .title,
+main .main__baccalaureate ul li .title,
+main .main__applicans ul li .title,
+main .main__magistracy ul li .title,
+main .main__postgraduate ul li .title,
+main .main__special ul li .title,
+main .main__about ul li .title,
+main .main__loyalty ul li .title {
+    font-size: 24px;
+    color: #dcdcdc;
+    font-weight: 800;
+}
+
+main .main__advantages ul li p,
+main .main__applicans ul li p {
+    font-size: 18px;
+    color: #666;
+}
+
+main .main__directions ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main__directions ul li .title {
+    font-size: 30px;
+    color: #e9cdcd;
+}
+
+main .main__baccalaureate span,
+main .main__applicans span,
+main .main__magistracy span,
+main .main__postgraduate span,
+main .main__special span,
+main .main__about span,
+main .main__loyalty span {
+    color: #252323;
+    font-size: 20px;
+}
+
+main .main__user table,
+main .main__loyalty table {
+    width: 100%;
+}
+
+main .main__user table caption {
+    font-size: 20px;
+    color: #991010;
+    font-weight: 800;
+}
+
+main .main__loyalty table caption {
+    font-size: 20px;
+    color: #b1a507;
+    font-weight: 800;
+}
+
+main .main__user table tr th {
+    padding: 10px;
+    color: #bbd8ae;
+    font-size: 18px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+main .main__loyalty table tr th{
+    padding: 10px;
+    color: #9aec73;
+    font-size: 18px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+main .main__loyalty table tr td{
+    padding: 10px;
+    color: #f7ed6c;
+    font-size: 16px;
+    background-color: #34a83a;
+    border-radius: 10px;
+}
+
+main .main__user table tr td{
+    padding: 10px;
+    color: #adac95;
+    font-size: 16px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #3d3d3d;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+}
