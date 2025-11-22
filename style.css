@@ -185,7 +185,7 @@ main .main__postgraduate span,
 main .main__special span,
 main .main__about span,
 main .main__loyalty span {
-    color: #252323;
+    color: #4a4343;
     font-size: 20px;
 }
 
@@ -239,7 +239,7 @@ main .main__user table tr td{
 }
 
 footer {
-    background-color: #3d3d3d;
+    background-color: #1daaca;
     position: sticky;
     padding: 20px;
     display: flex;
@@ -250,5 +250,5 @@ footer {
 footer span {
     font-size: 14px;
     font-weight: 700;
-    color: #666;
+    color: #f8fdf8a1;
 }

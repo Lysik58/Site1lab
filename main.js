@@ -22,27 +22,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 </tr>
                 <tr>
                     <td>Имя</td>
-                    <td>Хуй</td>
+                    <td>Алексей</td>
                 </tr>
                 <tr>
                     <td>Фамилия</td>
-                    <td>Хуев</td>
+                    <td>Алексеев</td>
                 </tr>
                 <tr>
                     <td>Отчество</td>
-                    <td>Хуевич</td>
+                    <td>Алексеевич</td>
                 </tr>
                 <tr>
                     <td>Email</td>
-                    <td>user@example.com</td>
+                    <td>user@gmail.com</td>
                 </tr>
                 <tr>
                     <td>Телефон</td>
-                    <td>+7 (999) 123-45-67</td>
+                    <td>+7 (132) 123-45-67</td>
                 </tr>
                 <tr>
                     <td>Дата регистрации</td>
-                    <td>27.09.2025</td>
+                    <td>22.11.2025</td>
                 </tr>
                 </tbody>
             </table>
